@@ -15,3 +15,7 @@ string = "world! Hello"
 puts flipbook(string)
 # -> "Hello world!"
 ```
+
+### Under the hood
+
+This program utilized big O of n (O(n)) because it uses three linear operations in sequence.  One, to create a new array composed of new strings of the individual words of the sentence.  Two, to create a new array that is in reverse order of the first array, and three, to join the array back into one string with spaces in between.
